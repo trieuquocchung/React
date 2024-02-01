@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+ import React, { Component } from 'react'
 
 export default class StateDemoComponent extends Component {
     // State là thuộc tính có sẵn của class Component (quản lí sự thay đổi của component)

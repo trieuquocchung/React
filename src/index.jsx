@@ -8,6 +8,8 @@ import Databinding from "./components/Databinding/Databinding";
 import StyleComponent from "./components/StyleComponents/StyleComponent";
 import HandleEvent from "./components/HandleEvent/HandleEvent";
 import StateDemoComponent from "./components/StateDemoComponent/StateDemoComponent";
+import ChangeColor from "./components/StateDemoComponent/ChangeColor";
+import ChangeAvatar from "./components/StateDemoComponent/ChangeAvatar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // jsx : => html được viết trong file js (nền js) được gọi là jsx
@@ -20,6 +22,9 @@ root.render(
     {/* <Databinding /> */}
     {/* <StyleComponent /> */}
     {/* <HandleEvent /> */}
-    <StateDemoComponent />
+    {/* <StateDemoComponent /> */}
+    {/* <ChangeColor /> */}
+    <ChangeAvatar />
   </div>
 );
+  
