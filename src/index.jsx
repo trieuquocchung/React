@@ -10,6 +10,10 @@ import HandleEvent from "./components/HandleEvent/HandleEvent";
 import StateDemoComponent from "./components/StateDemoComponent/StateDemoComponent";
 import ChangeColor from "./components/StateDemoComponent/ChangeColor";
 import ChangeAvatar from "./components/StateDemoComponent/ChangeAvatar";
+import RenderWithMap from "./components/RenderWithMap/RenderWithMap";
+import DemoProps from "./components/Props/DemoProps";
+import CardPerson from "./components/Props/CardPerson";
+import ExRenderListProduct from "./components/Props/ExampleRenderListProduct/ExRenderListProduct";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // jsx : => html được viết trong file js (nền js) được gọi là jsx
@@ -24,7 +28,9 @@ root.render(
     {/* <HandleEvent /> */}
     {/* <StateDemoComponent /> */}
     {/* <ChangeColor /> */}
-    <ChangeAvatar />
+    {/* <ChangeAvatar /> */}
+    {/* <RenderWithMap /> */}
+    {/* <DemoProps /> */}
+    <ExRenderListProduct />
   </div>
 );
-  
